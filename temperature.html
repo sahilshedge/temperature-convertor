@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature convertor</title>
+    <link rel="stylesheet" href="temperature.css">
+</head>
+<body>
+    <section id="mainbox">
+    <section class="selectionpannel">
+        <div class="selectionpannel2">
+        <div>
+            <h2>Enter Temperature</h2>
+            <div>
+                <p>Degree</p>
+                <input type="number" id="numberinput">
+                <select  id="selectunit">
+                    <option value="Celsius">&deg;C</option>
+                    <option value="Fahrenheit">&deg;F</option>
+                </select>
+                
+            </div>
+         </div>
+
+        <div>
+            <p>Convert In</p>
+            <select  id="convertto">
+                 <option value="Celsius">Celsius(C&deg)</option>
+                <option value="Fahrenheit">Fahrenheit(F&deg)</option>  
+            </select>
+        </div>
+        </div>
+        <div>  <button  onclick="convert()">Convert</button></div>
+     </section>
+     <section >
+        <div>
+        <span id="displaybar"></span>
+        <span id="degree"></span>
+        <span id="logo"></span>
+    </div>
+        
+        
+        
+     </section>
+    </section>
+    <script src="temperature.js"></script>
+</body>
+</html>

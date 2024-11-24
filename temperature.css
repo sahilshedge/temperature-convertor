@@ -1,0 +1,109 @@
+body{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} 
+#mainbox{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(37, 112, 87);
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+
+}
+.selectionpannel{
+    height: 390px;
+    width: 300px;
+    background-color: aliceblue;
+    margin-left: 5px;
+    border-radius: 6px;
+
+}
+.selectionpannel2{
+    position: relative;
+    left: 25px;
+    top: 40px;
+
+}
+h2{
+    color:rgb(37, 112, 87); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+p{
+    color:rgb(37, 112, 87); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#numberinput{
+    height: 30px;
+    width: 190px;
+}
+#selectunit{ 
+    height: 37px;
+    width: 40px;
+    position: relative;
+    right: 4px;
+    
+
+}
+#convertto{
+    height: 37px;
+    width: 241px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+
+}
+
+
+
+button{
+    height: 40px;
+    width: 120px;
+    background-color:rgb(37, 112, 87); 
+    border-radius: 50px;
+    position: relative;
+    left: 90px;
+    top: 100px;
+    color: white;
+    font-size: larger;
+    border-style: none;
+}
+#displaybar {
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    left: 125px;
+   
+
+}
+#degree{
+    color: white;
+    font-size:x-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 157px;
+    bottom: 20px;
+
+}
+#logo{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 170px;
+    bottom: 40px;
+
+}
